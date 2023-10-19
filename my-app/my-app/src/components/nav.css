@@ -1,0 +1,45 @@
+.navbar {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 9999px;
+  width: 80%;
+  box-shadow: 0 10px 30px 0px hsla(0, 0%, 92%, 0.4) inset;
+  padding: 10px 20px;
+  height: 9vh;
+  color: white;
+  z-index: 1;
+  /* zoom: 67%; */
+}
+.navbar-left img {
+  height: 60px;
+  padding-left: 50px;
+}
+.navbar-right img {
+  height: 28px;
+}
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+  padding-right: 40px;
+}
+
+.navbar-right ul li {
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 25px 20px;
+    zoom: 67%;
+  }
+}
+
+/* Styles for extra-large screens (e.g., desktops) */
+@media screen and (min-width: 1300px) {
+  .navbar {
+    zoom: 80%;
+  }
+}
